@@ -1,0 +1,18 @@
+.button {
+  &__light,
+  &__dark {
+    width: 256px;
+    height: 40px;
+    border-radius: 20px;
+  }
+
+  &__light {
+    color: white;
+    background-color: #181B21;
+  }
+  
+  &__dark {
+    color: black;
+    background-color: #E3E3e3;
+  }
+}
